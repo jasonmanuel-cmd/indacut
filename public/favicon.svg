@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="8" fill="#0d0c0a"/>
+  <rect x="1" y="1" width="46" height="46" rx="7" stroke="#c69a58" stroke-width="2" fill="none"/>
+  <text x="24" y="32" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900" font-size="20" fill="#c69a58" letter-spacing="-1">ITC</text>
+</svg>

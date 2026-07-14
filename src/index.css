@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --body: 'Manrope', sans-serif;
+  --display: 'Archivo Black', sans-serif;
+
+  --bg: #0d0b08;
+  --surface: #161310;
+  --surface-raised: #1e1a16;
+  --bronze: #b08d57;
+  --bronze-hover: #c9a268;
+  --bone: #e8dfd0;
+  --muted: #7a7062;
+  --soft: #a89c8c;
+  --line: rgba(232, 223, 208, 0.08);
+  --line-hover: rgba(176, 141, 87, 0.35);
+
+  background: var(--bg);
+  color: var(--bone);
+  font-family: var(--body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+select {
+  border-radius: 0;
+  font-family: inherit;
+}
+
+::selection {
+  background: var(--bronze);
+  color: #0d0b08;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(176, 141, 87, 0.25);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(176, 141, 87, 0.45);
+}
